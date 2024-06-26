@@ -1,0 +1,12 @@
+@import url('common.css');
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1f2b21; 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}

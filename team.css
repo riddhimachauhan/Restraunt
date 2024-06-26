@@ -1,0 +1,42 @@
+@import url('common.css');
+.team {
+    background-color: #1f2b21;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+.team h1{
+    size: 4em;
+    text-decoration: underline;
+}
+
+
+.team-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.team-info,
+.team-list {
+    flex: 1;
+    margin: 20px;
+}
+
+.team-info p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.team-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.team-list ul li {
+    margin-bottom: 10px;
+}

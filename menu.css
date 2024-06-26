@@ -1,0 +1,50 @@
+@import url('common.css');
+
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu h1 {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.menu-item div {
+    flex: 1;
+    text-align: left;
+}
+
+.menu-item span {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu-item img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        padding-top: 100px;
+    }
+}
