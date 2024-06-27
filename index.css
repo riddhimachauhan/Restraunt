@@ -49,8 +49,8 @@ header h3 {
 }
 
 .food-item img {
-    max-width: 100%;
-    height: auto;
+    max-width: 200px;
+    height:200px;
 }
 
 .info {
