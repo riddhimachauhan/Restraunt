@@ -1,13 +1,29 @@
 @import url('common.css');
-.team {
+body{
     background-color: #1f2b21;
+    background-size: cover;
+    background: #1f2b21;
+    text-align: left;
+    
+.team {
+   
+height: 100%;
     color: #fff;
-    padding: 40px 20px;
+    padding: 50px 20px;
     text-align: center;
+   
+}
+    
+   
 }
 .team h1{
     size: 4em;
     text-decoration: underline;
+    line-height: 90px;
+    margin-top: 120px;
+   
+
+    
 }
 
 
@@ -19,24 +35,31 @@
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
+    margin-top: 10px;
 }
+    
 
 .team-info,
 .team-list {
     flex: 1;
     margin: 20px;
+    text-align: left;
+    
 }
 
 .team-info p {
     margin-bottom: 20px;
     line-height: 1.6;
+   text-align: left;
 }
 
 .team-list ul {
     list-style: none;
     padding: 0;
+   
 }
 
 .team-list ul li {
     margin-bottom: 10px;
+   
 }
